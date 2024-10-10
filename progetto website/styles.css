@@ -10,8 +10,8 @@
     font-family: 'Poppins', sans-serif;
 }
 :root{
-    --main-color:#0b178f;
-    --text-color:#1c2844;
+    --main-color:#000000;
+    --text-color:#b39a11;
 }
 section{
     padding: 50px 10%;
@@ -74,9 +74,6 @@ header.shadow{
     font-size: 24px;
     cursor: pointer;
     z-index: 10001;
-    display: none;
-}
-#menu.bx.bx-menu{
     display: none;
 }
 .home{
@@ -224,7 +221,7 @@ header.shadow{
 }
 .portfolio-container .box{
     position: relative;
-    height: 220px;
+    height: 300px;
     box-shadow: 10px 11px 11px;
     overflow: hidden;
     border-radius: 0.5rem;
@@ -307,7 +304,7 @@ form .send-btn{
 form .send-btn:hover {
     background-color: var(--main-color);
 }
-.copryight{
+.copyright{
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -322,7 +319,7 @@ form .send-btn:hover {
     }
 }
 @media (max-width:881px){
-    .home-text-span {
+    .home-text span{
         font-size: 1.1rem;
     }
     .home-text h1 {
@@ -344,7 +341,7 @@ form .send-btn:hover {
     }
     header .navbar{
         position: absolute;
-        top: 100%;
+        top: -500px;
         left: 0;
         right: 0;
         display: flex;

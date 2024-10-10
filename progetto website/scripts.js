@@ -1,8 +1,8 @@
-let menu = document.getElementById('menu');
+let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 let header = document.querySelector('header');
 
-console.log(menu)
+
 
 menu.onclick= () => {
     menu.classList.toggle('bx-x')
